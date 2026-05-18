@@ -24,7 +24,7 @@ $headerWithMarkers = "<!-- HEADER START -->`n$header`n<!-- HEADER END -->"
 
 function Set-ActiveNav([string]$content, [string]$fileName) {
     # Remove any existing active class from previously copied header markup.
-    $content = [regex]::Replace($content, '(?i)<li\s+class=([\'\"]?)active\1>', '<li>')
+    $content = [regex]::Replace($content, "(?i)<li\s+class=(['""']?)active\1>", '<li>')
 
     $activeTarget = switch ($fileName) {
         'small-fleet.html' { 'fleet.html' }
@@ -33,10 +33,9 @@ function Set-ActiveNav([string]$content, [string]$fileName) {
         default { $fileName }
     }
 
-    $pattern = '(?i)(<li>)(\s*<a\s+href="' + [regex]::Escape($activeTarget) + '")'
-    if ($content -match $pattern) {
-        $content = [regex]::Replace($content, $pattern, '<li class="active">$2', 1)
-    }
+    $escapedTarget = [regex]::Escape($activeTarget)
+    $pattern = '(?i)(<li>)(\s*<a\b[^>]*\bhref="' + $escapedTarget + '")'
+    $content = [regex]::Replace($content, $pattern, '<li class="active">$2')
 
     return $content
 }
