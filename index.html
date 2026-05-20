@@ -1,13 +1,29 @@
-<!DOCTYPE html>
-<html>
+﻿<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>White Rentals</title>
 
-    <meta name="description" content="">
+    <meta name="description" content="White Rentals offers long-term passenger car rental for businesses in Greece. Reliable, well-maintained vehicles for corporate clients in Perea, Thessaloniki.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="White Rentals">
+    <meta property="og:title" content="White Rentals | Long-Term Business Car Rental in Greece">
+    <meta property="og:description" content="White Rentals offers long-term passenger car rental for businesses in Greece. Reliable, well-maintained vehicles for corporate clients in Perea, Thessaloniki.">
+    <meta property="og:url" content="https://white-rentals.gr/index.html">
+    <meta property="og:locale" content="en_GB">
+    <meta property="og:locale:alternate" content="el_GR">
+
+    <!-- Hreflang -->
+    <link rel="alternate" hreflang="en" href="https://white-rentals.gr/index.html">
+    <link rel="alternate" hreflang="el" href="https://white-rentals.gr/el/index.html">
+    <link rel="alternate" hreflang="x-default" href="https://white-rentals.gr/index.html">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://white-rentals.gr/index.html">
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
@@ -18,8 +34,33 @@
 
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
-    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-</head>
+<script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "AutoRental",
+      "name": "White Rentals",
+      "description": "Long-term passenger car rental services for businesses in Perea, Thessaloniki, Greece.",
+      "url": "https://white-rentals.gr",
+      "telephone": "+306947750082",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Romanou 25",
+        "addressLocality": "Perea",
+        "postalCode": "570 19",
+        "addressCountry": "GR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.5049262,
+        "longitude": 22.9255437
+      },
+      "areaServed": "Greece",
+      "currenciesAccepted": "EUR",
+      "priceRange": "EUR"
+    }
+    </script></head>
 
 <body>
 
@@ -30,9 +71,10 @@
                 <div class="row">
                     <div class="col-md-12">
                         <button id="primary-nav-button" type="button">Menu</button>
-                        <a href="index.html">
+                        <a href="index.html" class="logo-link">
                             <div class="logo">
-                                <img src="img/logo.png" alt="Venue Logo">
+                                <img src="img/logo.png" alt="White Rentals Logo">
+                                <span class="logo-text">White Rentals</span>
                             </div>
                         </a>
                         <nav id="primary-nav" class="dropdown cf">
@@ -64,6 +106,12 @@
                                 </li> -->
 
                                 <li><a class="nav-link" href="contact.html">Contact Us</a></li>
+                                <li class="lang-switcher">
+                                    <a href="el/index.html">EN</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="el/index.html">ΕΛ</a></li>
+                                    </ul>
+                                </li>
                             </ul>
                         </nav><!-- / #primary-nav -->
                     </div>

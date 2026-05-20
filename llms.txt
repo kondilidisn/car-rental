@@ -1,0 +1,34 @@
+# White Rentals
+
+> Long-term passenger car rental for businesses in Greece.
+
+White Rentals is a B2B car rental company based in Perea, Thessaloniki, Greece. We specialize in long-term rental agreements for corporate clients, offering two vehicle categories: Category B (compact city cars, e.g. Fiat Panda) and Category C (compact hatchbacks, e.g. Renault Clio, Opel Corsa, Citroen C3). We continuously maintain, service, and renew our fleet to ensure reliable mobility for our business partners.
+
+## Contact
+
+- Phone: +30 6947750082
+- Address: Romanou 25, Perea 570 19, Greece
+- Website: https://white-rentals.gr
+
+## Pages
+
+- [Home (EN)](https://white-rentals.gr/index.html): Overview of White Rentals services
+- [Home (EL)](https://white-rentals.gr/el/index.html): Greek homepage
+- [Our Fleet (EN)](https://white-rentals.gr/fleet.html): Fleet categories overview
+- [Our Fleet (EL)](https://white-rentals.gr/el/fleet.html): Greek fleet page
+- [Category B (EN)](https://white-rentals.gr/medium-fleet.html): Compact city cars - Fiat Panda or similar
+- [Category B (EL)](https://white-rentals.gr/el/medium-fleet.html): Greek Category B page
+- [Category C (EN)](https://white-rentals.gr/compact-fleet.html): Compact hatchbacks - Renault Clio, Opel Corsa, Citroen C3 or similar
+- [Category C (EL)](https://white-rentals.gr/el/compact-fleet.html): Greek Category C page
+- [About Us (EN)](https://white-rentals.gr/about-us.html): Company background and values
+- [About Us (EL)](https://white-rentals.gr/el/about-us.html): Greek About Us page
+- [Offers (EN)](https://white-rentals.gr/offers.html): Current rental offers
+- [Offers (EL)](https://white-rentals.gr/el/offers.html): Greek Offers page
+- [Contact (EN)](https://white-rentals.gr/contact.html): Contact information and inquiry form
+- [Contact (EL)](https://white-rentals.gr/el/contact.html): Greek Contact page
+
+## Languages
+
+The site is available in English (default) and Greek. Greek pages are under the /el/ path.
+English: https://white-rentals.gr
+Greek: https://white-rentals.gr/el/

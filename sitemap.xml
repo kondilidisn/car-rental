@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://white-rentals.gr/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://white-rentals.gr/index.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://white-rentals.gr/el/index.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://white-rentals.gr/index.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://white-rentals.gr/el/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://white-rentals.gr/index.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://white-rentals.gr/el/index.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://white-rentals.gr/index.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://white-rentals.gr/fleet.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://white-rentals.gr/fleet.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://white-rentals.gr/el/fleet.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://white-rentals.gr/fleet.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://white-rentals.gr/el/fleet.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://white-rentals.gr/fleet.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://white-rentals.gr/el/fleet.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://white-rentals.gr/fleet.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://white-rentals.gr/medium-fleet.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://white-rentals.gr/medium-fleet.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://white-rentals.gr/el/medium-fleet.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://white-rentals.gr/medium-fleet.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://white-rentals.gr/el/medium-fleet.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://white-rentals.gr/medium-fleet.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://white-rentals.gr/el/medium-fleet.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://white-rentals.gr/medium-fleet.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://white-rentals.gr/compact-fleet.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://white-rentals.gr/compact-fleet.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://white-rentals.gr/el/compact-fleet.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://white-rentals.gr/compact-fleet.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://white-rentals.gr/el/compact-fleet.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://white-rentals.gr/compact-fleet.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://white-rentals.gr/el/compact-fleet.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://white-rentals.gr/compact-fleet.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://white-rentals.gr/about-us.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://white-rentals.gr/about-us.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://white-rentals.gr/el/about-us.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://white-rentals.gr/about-us.html"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://white-rentals.gr/el/about-us.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://white-rentals.gr/about-us.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://white-rentals.gr/el/about-us.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://white-rentals.gr/about-us.html"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://white-rentals.gr/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://white-rentals.gr/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://white-rentals.gr/el/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://white-rentals.gr/contact.html"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://white-rentals.gr/el/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://white-rentals.gr/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://white-rentals.gr/el/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://white-rentals.gr/contact.html"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://white-rentals.gr/offers.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://white-rentals.gr/offers.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://white-rentals.gr/el/offers.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://white-rentals.gr/offers.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://white-rentals.gr/el/offers.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://white-rentals.gr/offers.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://white-rentals.gr/el/offers.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://white-rentals.gr/offers.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+</urlset>

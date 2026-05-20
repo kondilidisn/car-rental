@@ -1,5 +1,5 @@
 body {
-  font-family: 'Raleway', 'sans-serif';
+  font-family: 'Raleway', 'Roboto', sans-serif;
   background-color: #fff;
 }
 
@@ -57,6 +57,25 @@ section {
 }
 
 .blue-button a:hover {
+  background-color: transparent;
+  color: #4883ff;
+}
+
+.blue-button button {
+  display: inline-block;
+  background-color: #4883ff;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px 16px;
+  text-decoration: none;
+  border: 2px solid #4883ff;
+  transition: all 0.5s;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.blue-button button:hover {
   background-color: transparent;
   color: #4883ff;
 }
@@ -130,18 +149,41 @@ section {
   border: none;
 }
 
-#header .logo {
+#header a.logo-link {
+  display: block;
   float: left;
+  position: relative;
+  z-index: 10;
+  height: 100px;
+  margin-left: 40px;
+  margin-right: 70px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#header .logo {
   width: auto;
-  margin-left: 70px;
-  margin-right: 200px;
+  display: flex;
+  align-items: center;
+  height: 100px;
 }
 
 #header .logo img {
-  width: 130px;
+  max-height: 68px;
+  width: auto;
   max-width: 100%;
-  height: auto;
   overflow: hidden;
+}
+
+#header .logo-text {
+  font-size: 21px;
+  font-weight: 500;
+  color: #6b7280;
+  margin-left: 14px;
+  white-space: nowrap;
+  text-decoration: none;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 .menu {
@@ -1429,6 +1471,23 @@ footer .contact-info ul li a {
 .sub-footer a {
   text-decoration: none;
   color: #4883ff;
+}
+
+
+/* Language Switcher */
+.lang-switcher > a {
+    font-weight: 600 !important;
+    letter-spacing: 1px;
+}
+
+#primary-nav .lang-switcher .sub-menu {
+    min-width: 70px;
+    text-align: center;
+}
+
+#primary-nav .lang-switcher .sub-menu li a {
+    text-align: center;
+    font-weight: 600 !important;
 }
 
 
