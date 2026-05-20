@@ -266,29 +266,29 @@ jQuery(document).ready(function($) {
         
         function animateShow(menu, button) {
           if ( !button ) { var button = menu.parent(); }
-          
+
           button.addClass(settings.selected);
-          
+
           if ( settings.animation.effect == 'fade' ) {
-            menu.fadeIn(settings.animation.show);
+            menu.stop(true, true).fadeIn(settings.animation.show);
           } else if ( settings.animation.effect == 'slide' ) {
-            menu.slideDown(settings.animation.show);
+            menu.stop(true, true).slideDown(settings.animation.show);
           } else {
             menu.show();
             menu.removeClass('hide');
           }
         }
-        
+
         function animateHide(menu, button) {
           if ( !button ) { var button = menu.parent(); }
-          
+
           if ( settings.animation.effect == 'fade' ) {
-            menu.fadeOut(settings.animation.hide, function() { 
+            menu.stop(true, true).fadeOut(settings.animation.hide, function() {
               menu.removeAttr('style');
               button.removeClass(settings.selected);
             });
           } else if ( settings.animation.effect == 'slide' ) {
-            menu.slideUp(settings.animation.hide, function() { 
+            menu.stop(true, true).slideUp(settings.animation.hide, function() {
               menu.removeAttr('style');
               button.removeClass(settings.selected);
             });
