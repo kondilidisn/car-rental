@@ -105,6 +105,11 @@ section {
   padding: 0 15px;
 }
 
+#header .container {
+  width: 100%;
+  max-width: 100%;
+}
+
 
 #primary-nav-button {
   background: transparent;

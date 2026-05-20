@@ -303,7 +303,7 @@ jQuery(document).ready(function($) {
     });
 
     jQuery(function ($) {
-      $('#primary-nav').responsivenav();
+      $('#primary-nav').responsivenav({width: 1199});
       $('#top-nav').responsivenav({responsive:false});
     });
 	
